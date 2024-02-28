@@ -3,6 +3,7 @@
 if has("gui_running")
   if has("gui_gtk3")
     set guifont=Fixedsys\ Excelsior\ 16
+    colorscheme gruber-plain
   endif
 endif
 
@@ -23,7 +24,7 @@ let mapleader = " "
 
 " File tree browser
 map <leader>e          :NERDTreeToggle<CR>
-map <C-r>	       :!g++ % -o %< && ./%< <CR>
+map <C-b>	       :!g++ % -o %< && ./%< <CR>
 
 
 " Move between screens

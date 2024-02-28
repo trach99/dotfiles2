@@ -11,19 +11,47 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/map
+~MSle0~/R
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1709101781,,"q"
+:e vimrc
+|2,0,1709101750,,"e vimrc"
+:cd .vim
+|2,0,1709101744,,"cd .vim"
+:cd
+|2,0,1709101741,,"cd"
 :wq
-|2,0,1708946809,,"wq"
+|2,0,1709101727,,"wq"
+:cd .vim/
+|2,0,1709101562,,"cd .vim/"
+:PlugClean
+|2,0,1709101436,,"PlugClean"
+:PlugUpdate
+|2,0,1709101424,,"PlugUpdate"
+:where colorscheme
+|2,0,1709101092,,"where colorscheme"
+:PlugInstall
+|2,0,1709100933,,"PlugInstall"
+:p
+|2,0,1709100771,,"p"
+:+p
+|2,0,1709100684,,"+p"
+:!echo $TERMINFO
+|2,0,1709099566,,"!echo $TERMINFO"
+:!echo $TERM
+|2,0,1709099557,,"!echo $TERM"
+:echo $TERM
+|2,0,1709099547,,"echo $TERM"
+:term
+|2,0,1709099519,,"term"
+:pwd
+|2,0,1709095955,,"pwd"
 :q!
 |2,0,1708931113,,"q!"
-:pwd
-|2,0,1708931059,,"pwd"
 :w
 |2,0,1708931054,,"w"
-:q
-|2,0,1708930742,,"q"
 :e $VIMRC
 |2,0,1708930740,,"e $VIMRC"
 :!g++ test.cpp -o test && ./test
@@ -32,6 +60,12 @@
 |2,0,1708929943,,"NERDTreeToggle"
 
 # Search String History (newest to oldest):
+?/R
+|2,1,1709101702,47,"R"
+?/gru
+|2,1,1709101585,47,"gru"
+?/grub
+|2,1,1709101397,47,"grub"
 ?/map
 |2,1,1708930765,47,"map"
 
@@ -42,235 +76,271 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+"1	LINE	0
+	
+|3,0,1,1,1,0,1709101402,""
+"2	LINE	0
+	" Tsoding Grubber Darker
+|3,0,2,1,1,0,1709101401,"\" Tsoding Grubber Darker"
+"3	LINE	0
+	Plug 'blazkowolf/gruber-darker.nvim'
+|3,0,3,1,1,0,1709101399,"Plug 'blazkowolf/gruber-darker.nvim'"
 ""-	CHAR	0
-	>
-|3,1,36,0,1,0,1708930940,">"
+	darker
+|3,1,36,0,1,0,1709101456,"darker"
 
 # File marks:
-'0  266  0  ~/.config/kitty/kitty.conf
-|4,48,266,0,1708946809,"~/.config/kitty/kitty.conf"
-'1  8  63  ~/Documents/cpp/test.cpp
-|4,49,8,63,1708931113,"~/Documents/cpp/test.cpp"
-'2  26  8  ~/.vim/vimrc
-|4,50,26,8,1708930954,"~/.vim/vimrc"
-'3  26  8  ~/.vim/vimrc
-|4,51,26,8,1708930954,"~/.vim/vimrc"
-'4  1  0  ~/Documents/cpp/$VIMRC
-|4,52,1,0,1708930742,"~/Documents/cpp/$VIMRC"
-'5  1  0  ~/Documents/cpp/$VIMRC
-|4,53,1,0,1708930742,"~/Documents/cpp/$VIMRC"
-'6  18  11  ~/.vim/vimrc
-|4,54,18,11,1708930137,"~/.vim/vimrc"
-'7  18  11  ~/.vim/vimrc
-|4,55,18,11,1708930137,"~/.vim/vimrc"
-'8  18  11  ~/.vim/vimrc
-|4,56,18,11,1708930137,"~/.vim/vimrc"
-'9  18  11  ~/.vim/vimrc
-|4,57,18,11,1708930137,"~/.vim/vimrc"
+'0  28  0  ~/.vim/vimrc
+|4,48,28,0,1709101781,"~/.vim/vimrc"
+'1  27  7  ~/.vim/vimrc
+|4,49,27,7,1709101727,"~/.vim/vimrc"
+'2  27  7  ~/.vim/vimrc
+|4,50,27,7,1709101727,"~/.vim/vimrc"
+'3  6  27  ~/.vim/vimrc
+|4,51,6,27,1709101628,"~/.vim/vimrc"
+'4  6  27  ~/.vim/vimrc
+|4,52,6,27,1709101628,"~/.vim/vimrc"
+'5  6  27  ~/.vim/vimrc
+|4,53,6,27,1709101628,"~/.vim/vimrc"
+'6  6  27  ~/.vim/vimrc
+|4,54,6,27,1709101628,"~/.vim/vimrc"
+'7  6  21  ~/.vim/vimrc
+|4,55,6,21,1709101540,"~/.vim/vimrc"
+'8  6  21  ~/.vim/vimrc
+|4,56,6,21,1709101540,"~/.vim/vimrc"
+'9  6  21  ~/.vim/vimrc
+|4,57,6,21,1709101540,"~/.vim/vimrc"
 
 # Jumplist (newest first):
--'  266  0  ~/.config/kitty/kitty.conf
-|4,39,266,0,1708946809,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1708946789,"~/.config/kitty/kitty.conf"
--'  8  63  ~/Documents/cpp/test.cpp
-|4,39,8,63,1708931113,"~/Documents/cpp/test.cpp"
--'  8  63  ~/Documents/cpp/test.cpp
-|4,39,8,63,1708931113,"~/Documents/cpp/test.cpp"
--'  8  63  ~/Documents/cpp/test.cpp
-|4,39,8,63,1708931113,"~/Documents/cpp/test.cpp"
--'  8  63  ~/Documents/cpp/test.cpp
-|4,39,8,63,1708931113,"~/Documents/cpp/test.cpp"
--'  8  63  ~/Documents/cpp/test.cpp
-|4,39,8,63,1708931113,"~/Documents/cpp/test.cpp"
--'  8  63  ~/Documents/cpp/test.cpp
-|4,39,8,63,1708931113,"~/Documents/cpp/test.cpp"
--'  8  63  ~/Documents/cpp/test.cpp
-|4,39,8,63,1708931113,"~/Documents/cpp/test.cpp"
--'  8  63  ~/Documents/cpp/test.cpp
-|4,39,8,63,1708931113,"~/Documents/cpp/test.cpp"
--'  1  0  ~/Documents/cpp/test.cpp
-|4,39,1,0,1708930964,"~/Documents/cpp/test.cpp"
--'  1  0  ~/Documents/cpp/test.cpp
-|4,39,1,0,1708930964,"~/Documents/cpp/test.cpp"
--'  1  0  ~/Documents/cpp/test.cpp
-|4,39,1,0,1708930964,"~/Documents/cpp/test.cpp"
--'  1  0  ~/Documents/cpp/test.cpp
-|4,39,1,0,1708930964,"~/Documents/cpp/test.cpp"
--'  1  0  ~/Documents/cpp/test.cpp
-|4,39,1,0,1708930964,"~/Documents/cpp/test.cpp"
--'  1  0  ~/Documents/cpp/test.cpp
-|4,39,1,0,1708930964,"~/Documents/cpp/test.cpp"
--'  1  0  ~/Documents/cpp/test.cpp
-|4,39,1,0,1708930964,"~/Documents/cpp/test.cpp"
--'  1  0  ~/Documents/cpp/test.cpp
-|4,39,1,0,1708930964,"~/Documents/cpp/test.cpp"
--'  26  8  ~/.vim/vimrc
-|4,39,26,8,1708930954,"~/.vim/vimrc"
--'  26  8  ~/.vim/vimrc
-|4,39,26,8,1708930954,"~/.vim/vimrc"
--'  26  8  ~/.vim/vimrc
-|4,39,26,8,1708930954,"~/.vim/vimrc"
--'  26  8  ~/.vim/vimrc
-|4,39,26,8,1708930954,"~/.vim/vimrc"
--'  26  8  ~/.vim/vimrc
-|4,39,26,8,1708930954,"~/.vim/vimrc"
--'  26  8  ~/.vim/vimrc
-|4,39,26,8,1708930954,"~/.vim/vimrc"
--'  26  8  ~/.vim/vimrc
-|4,39,26,8,1708930954,"~/.vim/vimrc"
--'  26  8  ~/.vim/vimrc
-|4,39,26,8,1708930954,"~/.vim/vimrc"
--'  26  8  ~/.vim/vimrc
-|4,39,26,8,1708930954,"~/.vim/vimrc"
--'  26  8  ~/.vim/vimrc
-|4,39,26,8,1708930954,"~/.vim/vimrc"
--'  26  8  ~/.vim/vimrc
-|4,39,26,8,1708930954,"~/.vim/vimrc"
--'  26  8  ~/.vim/vimrc
-|4,39,26,8,1708930954,"~/.vim/vimrc"
--'  26  8  ~/.vim/vimrc
-|4,39,26,8,1708930954,"~/.vim/vimrc"
--'  26  8  ~/.vim/vimrc
-|4,39,26,8,1708930954,"~/.vim/vimrc"
--'  26  8  ~/.vim/vimrc
-|4,39,26,8,1708930954,"~/.vim/vimrc"
--'  26  8  ~/.vim/vimrc
-|4,39,26,8,1708930954,"~/.vim/vimrc"
--'  22  4  ~/.vim/vimrc
-|4,39,22,4,1708930766,"~/.vim/vimrc"
--'  22  4  ~/.vim/vimrc
-|4,39,22,4,1708930766,"~/.vim/vimrc"
--'  22  4  ~/.vim/vimrc
-|4,39,22,4,1708930766,"~/.vim/vimrc"
--'  22  4  ~/.vim/vimrc
-|4,39,22,4,1708930766,"~/.vim/vimrc"
--'  22  4  ~/.vim/vimrc
-|4,39,22,4,1708930766,"~/.vim/vimrc"
--'  22  4  ~/.vim/vimrc
-|4,39,22,4,1708930766,"~/.vim/vimrc"
--'  22  4  ~/.vim/vimrc
-|4,39,22,4,1708930766,"~/.vim/vimrc"
--'  22  4  ~/.vim/vimrc
-|4,39,22,4,1708930766,"~/.vim/vimrc"
--'  22  4  ~/.vim/vimrc
-|4,39,22,4,1708930766,"~/.vim/vimrc"
--'  22  4  ~/.vim/vimrc
-|4,39,22,4,1708930766,"~/.vim/vimrc"
--'  22  4  ~/.vim/vimrc
-|4,39,22,4,1708930766,"~/.vim/vimrc"
--'  22  4  ~/.vim/vimrc
-|4,39,22,4,1708930766,"~/.vim/vimrc"
--'  22  4  ~/.vim/vimrc
-|4,39,22,4,1708930766,"~/.vim/vimrc"
--'  22  4  ~/.vim/vimrc
-|4,39,22,4,1708930766,"~/.vim/vimrc"
--'  22  4  ~/.vim/vimrc
-|4,39,22,4,1708930766,"~/.vim/vimrc"
--'  22  4  ~/.vim/vimrc
-|4,39,22,4,1708930766,"~/.vim/vimrc"
--'  1  2  ~/.vim/vimrc
-|4,39,1,2,1708930765,"~/.vim/vimrc"
--'  1  2  ~/.vim/vimrc
-|4,39,1,2,1708930765,"~/.vim/vimrc"
--'  1  2  ~/.vim/vimrc
-|4,39,1,2,1708930765,"~/.vim/vimrc"
--'  1  2  ~/.vim/vimrc
-|4,39,1,2,1708930765,"~/.vim/vimrc"
--'  1  2  ~/.vim/vimrc
-|4,39,1,2,1708930765,"~/.vim/vimrc"
--'  1  2  ~/.vim/vimrc
-|4,39,1,2,1708930765,"~/.vim/vimrc"
--'  1  2  ~/.vim/vimrc
-|4,39,1,2,1708930765,"~/.vim/vimrc"
--'  1  2  ~/.vim/vimrc
-|4,39,1,2,1708930765,"~/.vim/vimrc"
--'  1  2  ~/.vim/vimrc
-|4,39,1,2,1708930765,"~/.vim/vimrc"
--'  1  2  ~/.vim/vimrc
-|4,39,1,2,1708930765,"~/.vim/vimrc"
--'  1  2  ~/.vim/vimrc
-|4,39,1,2,1708930765,"~/.vim/vimrc"
--'  1  2  ~/.vim/vimrc
-|4,39,1,2,1708930765,"~/.vim/vimrc"
--'  1  2  ~/.vim/vimrc
-|4,39,1,2,1708930765,"~/.vim/vimrc"
--'  1  2  ~/.vim/vimrc
-|4,39,1,2,1708930765,"~/.vim/vimrc"
--'  1  2  ~/.vim/vimrc
-|4,39,1,2,1708930765,"~/.vim/vimrc"
--'  1  2  ~/.vim/vimrc
-|4,39,1,2,1708930765,"~/.vim/vimrc"
--'  1  0  ~/Documents/cpp/$VIMRC
-|4,39,1,0,1708930742,"~/Documents/cpp/$VIMRC"
--'  1  0  ~/Documents/cpp/$VIMRC
-|4,39,1,0,1708930742,"~/Documents/cpp/$VIMRC"
--'  1  0  ~/Documents/cpp/$VIMRC
-|4,39,1,0,1708930742,"~/Documents/cpp/$VIMRC"
--'  1  0  ~/Documents/cpp/$VIMRC
-|4,39,1,0,1708930742,"~/Documents/cpp/$VIMRC"
--'  1  0  ~/Documents/cpp/$VIMRC
-|4,39,1,0,1708930742,"~/Documents/cpp/$VIMRC"
--'  1  0  ~/Documents/cpp/$VIMRC
-|4,39,1,0,1708930742,"~/Documents/cpp/$VIMRC"
--'  1  0  ~/Documents/cpp/$VIMRC
-|4,39,1,0,1708930742,"~/Documents/cpp/$VIMRC"
--'  1  0  ~/Documents/cpp/$VIMRC
-|4,39,1,0,1708930742,"~/Documents/cpp/$VIMRC"
--'  1  0  ~/Documents/cpp/$VIMRC
-|4,39,1,0,1708930742,"~/Documents/cpp/$VIMRC"
--'  1  0  ~/Documents/cpp/$VIMRC
-|4,39,1,0,1708930742,"~/Documents/cpp/$VIMRC"
--'  1  0  ~/Documents/cpp/$VIMRC
-|4,39,1,0,1708930742,"~/Documents/cpp/$VIMRC"
--'  1  0  ~/Documents/cpp/$VIMRC
-|4,39,1,0,1708930742,"~/Documents/cpp/$VIMRC"
--'  1  0  ~/Documents/cpp/$VIMRC
-|4,39,1,0,1708930742,"~/Documents/cpp/$VIMRC"
--'  1  0  ~/Documents/cpp/$VIMRC
-|4,39,1,0,1708930742,"~/Documents/cpp/$VIMRC"
--'  1  0  ~/Documents/cpp/$VIMRC
-|4,39,1,0,1708930742,"~/Documents/cpp/$VIMRC"
--'  1  0  ~/Documents/cpp/$VIMRC
-|4,39,1,0,1708930742,"~/Documents/cpp/$VIMRC"
--'  1  0  ~/Documents/cpp/$VIMRC
-|4,39,1,0,1708930742,"~/Documents/cpp/$VIMRC"
--'  1  0  ~/Documents/cpp/$VIMRC
-|4,39,1,0,1708930742,"~/Documents/cpp/$VIMRC"
--'  1  0  ~/Documents/cpp/$VIMRC
-|4,39,1,0,1708930742,"~/Documents/cpp/$VIMRC"
--'  1  0  ~/Documents/cpp/$VIMRC
-|4,39,1,0,1708930742,"~/Documents/cpp/$VIMRC"
--'  1  0  ~/Documents/cpp/$VIMRC
-|4,39,1,0,1708930742,"~/Documents/cpp/$VIMRC"
--'  1  0  ~/Documents/cpp/$VIMRC
-|4,39,1,0,1708930742,"~/Documents/cpp/$VIMRC"
--'  1  0  ~/Documents/cpp/$VIMRC
-|4,39,1,0,1708930742,"~/Documents/cpp/$VIMRC"
--'  1  0  ~/Documents/cpp/$VIMRC
-|4,39,1,0,1708930742,"~/Documents/cpp/$VIMRC"
--'  7  9  ~/Documents/cpp/test.cpp
-|4,39,7,9,1708930740,"~/Documents/cpp/test.cpp"
--'  6  9  ~/Documents/cpp/test.cpp
-|4,39,6,9,1708930740,"~/Documents/cpp/test.cpp"
--'  6  9  ~/Documents/cpp/test.cpp
-|4,39,6,9,1708930740,"~/Documents/cpp/test.cpp"
--'  7  9  ~/Documents/cpp/test.cpp
-|4,39,7,9,1708930740,"~/Documents/cpp/test.cpp"
--'  6  9  ~/Documents/cpp/test.cpp
-|4,39,6,9,1708930740,"~/Documents/cpp/test.cpp"
--'  6  9  ~/Documents/cpp/test.cpp
-|4,39,6,9,1708930740,"~/Documents/cpp/test.cpp"
--'  7  9  ~/Documents/cpp/test.cpp
-|4,39,7,9,1708930740,"~/Documents/cpp/test.cpp"
--'  6  9  ~/Documents/cpp/test.cpp
-|4,39,6,9,1708930740,"~/Documents/cpp/test.cpp"
--'  6  9  ~/Documents/cpp/test.cpp
-|4,39,6,9,1708930740,"~/Documents/cpp/test.cpp"
--'  7  9  ~/Documents/cpp/test.cpp
-|4,39,7,9,1708930740,"~/Documents/cpp/test.cpp"
+-'  28  0  ~/.vim/vimrc
+|4,39,28,0,1709101781,"~/.vim/vimrc"
+-'  28  0  ~/.vim/vimrc
+|4,39,28,0,1709101781,"~/.vim/vimrc"
+-'  29  0  ~/.vim/vimrc
+|4,39,29,0,1709101768,"~/.vim/vimrc"
+-'  29  0  ~/.vim/vimrc
+|4,39,29,0,1709101768,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1709101750,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1709101750,"~/.vim/vimrc"
+-'  27  7  ~/.vim/vimrc
+|4,39,27,7,1709101727,"~/.vim/vimrc"
+-'  27  7  ~/.vim/vimrc
+|4,39,27,7,1709101727,"~/.vim/vimrc"
+-'  27  7  ~/.vim/vimrc
+|4,39,27,7,1709101727,"~/.vim/vimrc"
+-'  27  7  ~/.vim/vimrc
+|4,39,27,7,1709101727,"~/.vim/vimrc"
+-'  26  40  ~/.vim/vimrc
+|4,39,26,40,1709101706,"~/.vim/vimrc"
+-'  26  40  ~/.vim/vimrc
+|4,39,26,40,1709101706,"~/.vim/vimrc"
+-'  26  40  ~/.vim/vimrc
+|4,39,26,40,1709101706,"~/.vim/vimrc"
+-'  26  40  ~/.vim/vimrc
+|4,39,26,40,1709101706,"~/.vim/vimrc"
+-'  3  1  ~/.vim/vimrc
+|4,39,3,1,1709101702,"~/.vim/vimrc"
+-'  3  1  ~/.vim/vimrc
+|4,39,3,1,1709101702,"~/.vim/vimrc"
+-'  3  1  ~/.vim/vimrc
+|4,39,3,1,1709101702,"~/.vim/vimrc"
+-'  3  1  ~/.vim/vimrc
+|4,39,3,1,1709101702,"~/.vim/vimrc"
+-'  77  0  ~/.vim/vimrc
+|4,39,77,0,1709101655,"~/.vim/vimrc"
+-'  77  0  ~/.vim/vimrc
+|4,39,77,0,1709101655,"~/.vim/vimrc"
+-'  77  0  ~/.vim/vimrc
+|4,39,77,0,1709101655,"~/.vim/vimrc"
+-'  77  0  ~/.vim/vimrc
+|4,39,77,0,1709101655,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1709101639,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1709101639,"~/.vim/vimrc"
+-'  6  27  ~/.vim/vimrc
+|4,39,6,27,1709101628,"~/.vim/vimrc"
+-'  6  27  ~/.vim/vimrc
+|4,39,6,27,1709101628,"~/.vim/vimrc"
+-'  6  27  ~/.vim/vimrc
+|4,39,6,27,1709101628,"~/.vim/vimrc"
+-'  6  27  ~/.vim/vimrc
+|4,39,6,27,1709101628,"~/.vim/vimrc"
+-'  6  27  ~/.vim/vimrc
+|4,39,6,27,1709101628,"~/.vim/vimrc"
+-'  6  27  ~/.vim/vimrc
+|4,39,6,27,1709101628,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1709101585,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1709101585,"~/.vim/vimrc"
+-'  64  0  ~/.vim/vimrc
+|4,39,64,0,1709101581,"~/.vim/vimrc"
+-'  64  0  ~/.vim/vimrc
+|4,39,64,0,1709101581,"~/.vim/vimrc"
+-'  64  0  ~/.vim/vimrc
+|4,39,64,0,1709101581,"~/.vim/vimrc"
+-'  64  0  ~/.vim/vimrc
+|4,39,64,0,1709101581,"~/.vim/vimrc"
+-'  64  0  ~/.vim/vimrc
+|4,39,64,0,1709101581,"~/.vim/vimrc"
+-'  64  0  ~/.vim/vimrc
+|4,39,64,0,1709101581,"~/.vim/vimrc"
+-'  6  21  ~/.vim/vimrc
+|4,39,6,21,1709101540,"~/.vim/vimrc"
+-'  6  21  ~/.vim/vimrc
+|4,39,6,21,1709101540,"~/.vim/vimrc"
+-'  82  0  ~/.vim/vimrc
+|4,39,82,0,1709101443,"~/.vim/vimrc"
+-'  82  0  ~/.vim/vimrc
+|4,39,82,0,1709101443,"~/.vim/vimrc"
+-'  82  0  ~/.vim/vimrc
+|4,39,82,0,1709101443,"~/.vim/vimrc"
+-'  82  0  ~/.vim/vimrc
+|4,39,82,0,1709101443,"~/.vim/vimrc"
+-'  82  0  ~/.vim/vimrc
+|4,39,82,0,1709101443,"~/.vim/vimrc"
+-'  82  0  ~/.vim/vimrc
+|4,39,82,0,1709101443,"~/.vim/vimrc"
+-'  82  0  ~/.vim/vimrc
+|4,39,82,0,1709101443,"~/.vim/vimrc"
+-'  82  0  ~/.vim/vimrc
+|4,39,82,0,1709101443,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1709101109,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1709101109,"~/.vim/vimrc"
+-'  6  28  ~/.vim/vimrc
+|4,39,6,28,1709101016,"~/.vim/vimrc"
+-'  6  28  ~/.vim/vimrc
+|4,39,6,28,1709101016,"~/.vim/vimrc"
+-'  83  35  ~/.vim/vimrc
+|4,39,83,35,1709100925,"~/.vim/vimrc"
+-'  83  35  ~/.vim/vimrc
+|4,39,83,35,1709100925,"~/.vim/vimrc"
+-'  83  35  ~/.vim/vimrc
+|4,39,83,35,1709100925,"~/.vim/vimrc"
+-'  83  35  ~/.vim/vimrc
+|4,39,83,35,1709100925,"~/.vim/vimrc"
+-'  82  35  ~/.vim/vimrc
+|4,39,82,35,1709100925,"~/.vim/vimrc"
+-'  83  35  ~/.vim/vimrc
+|4,39,83,35,1709100925,"~/.vim/vimrc"
+-'  83  35  ~/.vim/vimrc
+|4,39,83,35,1709100925,"~/.vim/vimrc"
+-'  83  35  ~/.vim/vimrc
+|4,39,83,35,1709100925,"~/.vim/vimrc"
+-'  83  35  ~/.vim/vimrc
+|4,39,83,35,1709100925,"~/.vim/vimrc"
+-'  82  35  ~/.vim/vimrc
+|4,39,82,35,1709100925,"~/.vim/vimrc"
+-'  84  0  ~/.vim/vimrc
+|4,39,84,0,1709100817,"~/.vim/vimrc"
+-'  84  0  ~/.vim/vimrc
+|4,39,84,0,1709100817,"~/.vim/vimrc"
+-'  84  0  ~/.vim/vimrc
+|4,39,84,0,1709100817,"~/.vim/vimrc"
+-'  84  0  ~/.vim/vimrc
+|4,39,84,0,1709100817,"~/.vim/vimrc"
+-'  83  0  ~/.vim/vimrc
+|4,39,83,0,1709100817,"~/.vim/vimrc"
+-'  84  0  ~/.vim/vimrc
+|4,39,84,0,1709100817,"~/.vim/vimrc"
+-'  84  0  ~/.vim/vimrc
+|4,39,84,0,1709100817,"~/.vim/vimrc"
+-'  84  0  ~/.vim/vimrc
+|4,39,84,0,1709100817,"~/.vim/vimrc"
+-'  84  0  ~/.vim/vimrc
+|4,39,84,0,1709100817,"~/.vim/vimrc"
+-'  83  0  ~/.vim/vimrc
+|4,39,83,0,1709100817,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1709100751,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1709100751,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1709100751,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1709100751,"~/.vim/vimrc"
+-'  27  7  ~/.vim/vimrc
+|4,39,27,7,1709100729,"~/.vim/vimrc"
+-'  26  7  ~/.vim/vimrc
+|4,39,26,7,1709100729,"~/.vim/vimrc"
+-'  27  7  ~/.vim/vimrc
+|4,39,27,7,1709100729,"~/.vim/vimrc"
+-'  26  7  ~/.vim/vimrc
+|4,39,26,7,1709100729,"~/.vim/vimrc"
+-'  27  7  ~/.vim/vimrc
+|4,39,27,7,1709100729,"~/.vim/vimrc"
+-'  26  7  ~/.vim/vimrc
+|4,39,26,7,1709100729,"~/.vim/vimrc"
+-'  26  7  ~/.vim/vimrc
+|4,39,26,7,1709100729,"~/.vim/vimrc"
+-'  27  7  ~/.vim/vimrc
+|4,39,27,7,1709100729,"~/.vim/vimrc"
+-'  26  7  ~/.vim/vimrc
+|4,39,26,7,1709100729,"~/.vim/vimrc"
+-'  27  7  ~/.vim/vimrc
+|4,39,27,7,1709100729,"~/.vim/vimrc"
+-'  26  7  ~/.vim/vimrc
+|4,39,26,7,1709100729,"~/.vim/vimrc"
+-'  27  7  ~/.vim/vimrc
+|4,39,27,7,1709100729,"~/.vim/vimrc"
+-'  26  7  ~/.vim/vimrc
+|4,39,26,7,1709100729,"~/.vim/vimrc"
+-'  26  7  ~/.vim/vimrc
+|4,39,26,7,1709100729,"~/.vim/vimrc"
+-'  81  0  ~/.vim/vimrc
+|4,39,81,0,1709100688,"~/.vim/vimrc"
+-'  85  0  ~/.vim/vimrc
+|4,39,85,0,1709100688,"~/.vim/vimrc"
+-'  81  0  ~/.vim/vimrc
+|4,39,81,0,1709100688,"~/.vim/vimrc"
+-'  85  0  ~/.vim/vimrc
+|4,39,85,0,1709100688,"~/.vim/vimrc"
+-'  81  0  ~/.vim/vimrc
+|4,39,81,0,1709100688,"~/.vim/vimrc"
+-'  85  0  ~/.vim/vimrc
+|4,39,85,0,1709100688,"~/.vim/vimrc"
+-'  81  0  ~/.vim/vimrc
+|4,39,81,0,1709100688,"~/.vim/vimrc"
+-'  85  0  ~/.vim/vimrc
+|4,39,85,0,1709100688,"~/.vim/vimrc"
+-'  82  0  ~/.vim/vimrc
+|4,39,82,0,1709100688,"~/.vim/vimrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/.vim/vimrc
+	*	1709101779	0
+	"	28	0
+	^	28	15
+	.	28	0
+	+	19	11
+	+	27	9
+	+	82	0
+	+	83	0
+	+	82	0
+	+	27	7
+	+	1	0
+	+	82	0
+	+	6	28
+	+	82	0
+	+	6	28
+	+	3	0
+	+	27	7
+	+	29	0
+	+	28	0
+
+> ~/Downloads/tsoding_theme/Tsoding Dark Theme-color-theme.json
+	*	1709099929	0
+	"	8	0
+
+> ~/.gitconfig.lock
+	*	1709097941	0
+	"	1	0
 
 > ~/.config/kitty/kitty.conf
 	*	1708946799	0
@@ -295,14 +365,6 @@
 	"	15	0
 	.	1	0
 	+	1	0
-
-> ~/.vim/vimrc
-	*	1708930952	0
-	"	26	8
-	^	26	9
-	.	26	9
-	+	18	11
-	+	26	9
 
 > ~/Documents/cpp/$VIMRC
 	*	1708930740	0
