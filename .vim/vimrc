@@ -2,7 +2,8 @@
 " -----------
 if has("gui_running")
   if has("gui_gtk3")
-    set guifont=Fixedsys\ Excelsior\ 16
+"    set guifont=Fixedsys\ Excelsior\ 16
+    set guifont=IosevkaTerm\ NF\ 16
     colorscheme gruber-plain
   endif
 endif
@@ -20,12 +21,18 @@ set showmode
 
 " Keybindings
 " -----------
+" LEADER KEY is [SPACE]
 let mapleader = " "
-
-" File tree browser
-map <leader>e          :NERDTreeToggle<CR>
+" Control-b to build and run the C++ file
 map <C-b>	       :!g++ % -o %< && ./%< <CR>
 
+" NERDTree Settings
+" Open NerdTree Explorer using [SPACE e] of the current buffer
+map <leader>e   :NERDTreeToggle %:p:h<CR>
+" Open NerdTree Explorer to the HOME directory using [SPACE ne]
+"map <leader>ne   :NERDTreeToggle <CR>
+let g:NERDTreeChDirMode=3
+let NERDTreeShowHidden=1
 
 " Move between screens
 nmap <C-j>      <C-w>j
@@ -37,7 +44,6 @@ nmap <C-l>      <C-w>l
 " Autocommands
 " -----------
 autocmd BufEnter * silent! lcd %:p:h
-
 
 "Plugin Manager
 call plug#begin()

@@ -1,4 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =2
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/tss_workz/Downloads/cmake/CMake/Bootstrap.cmk'
+let g:netrw_dirhist_0='/home/tss_workz/.vim'
+let g:netrw_dirhist_9='/home/tss_workz'
+let g:netrw_dirhist_8='/home/tss_workz/.vim'
+let g:netrw_dirhist_7='/home/tss_workz/Documents/cpp'
+let g:netrw_dirhist_6='/home/tss_workz/.vim'
+let g:netrw_dirhist_5='/home/tss_workz/Documents/cpp'
+let g:netrw_dirhist_4='/home/tss_workz/.vim'
+let g:netrw_dirhist_3='/home/tss_workz/Documents/cpp'
 let g:netrw_dirhist_2='/usr/share/vim'
-let g:netrw_dirhist_1='/home/tss_workz/Documents/MWC/Country_Status'

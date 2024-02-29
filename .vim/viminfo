@@ -13,21 +13,86 @@
 # Last Search Pattern:
 ~MSle0~/R
 
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
 :q
-|2,0,1709101781,,"q"
+|2,0,1709193554,,"q"
+:wq
+|2,0,1709193431,,"wq"
+:NERDTreeToggle
+|2,0,1709193355,,"NERDTreeToggle"
+:NERD
+|2,0,1709193269,,"NERD"
+:NERDTree
+|2,0,1709193257,,"NERDTree"
+:w
+|2,0,1709193237,,"w"
+:source vimrc
+|2,0,1709193141,,"source vimrc"
+:e .vim/vimrc
+|2,0,1709193061,,"e .vim/vimrc"
+:source v
+|2,0,1709193033,,"source v"
+:q!
+|2,0,1709192984,,"q!"
+:q all
+|2,0,1709192977,,"q all"
+:pwd
+|2,0,1709192919,,"pwd"
+:ls
+|2,0,1709192915,,"ls"
+:tabnew
+|2,0,1709192322,,"tabnew"
+:tabn
+|2,0,1709192313,,"tabn"
+:source 
+|2,0,1709191994,,"source "
+:exit
+|2,0,1709191878,,"exit"
+:help NERDTreeChDirModejj
+|2,0,1709189582,,"help NERDTreeChDirModejj"
+:help NERDTree-cd
+|2,0,1709189547,,"help NERDTree-cd"
+:help NERDTreeChDirMode
+|2,0,1709189388,,"help NERDTreeChDirMode"
+:NERDTreeCWD
+|2,0,1709188726,,"NERDTreeCWD"
+:FZF
+|2,0,1709187598,,"FZF"
+:vsp
+|2,0,1709186967,,"vsp"
+:vert help NERDTreeChDirMode
+|2,0,1709186716,,"vert help NERDTreeChDirMode"
+:vsp help NERDTreeChDirMode
+|2,0,1709186617,,"vsp help NERDTreeChDirMode"
+:vsp e vimrc
+|2,0,1709186594,,"vsp e vimrc"
+:vsp tab
+|2,0,1709185482,,"vsp tab"
+:tab new
+|2,0,1709185472,,"tab new"
+:e! vimrc
+|2,0,1709184768,,"e! vimrc"
 :e vimrc
-|2,0,1709101750,,"e vimrc"
+|2,0,1709184752,,"e vimrc"
+:cd .vim/
+|2,0,1709184737,,"cd .vim/"
+:term
+|2,0,1709109760,,"term"
+:cd Documents/cpp/Cpp__CN/
+|2,0,1709106440,,"cd Documents/cpp/Cpp__CN/"
+:qa
+|2,0,1709102613,,"qa"
+:PlugClean
+|2,0,1709102604,,"PlugClean"
+:sp +term
+|2,0,1709102163,,"sp +term"
 :cd .vim
 |2,0,1709101744,,"cd .vim"
 :cd
 |2,0,1709101741,,"cd"
-:wq
-|2,0,1709101727,,"wq"
-:cd .vim/
-|2,0,1709101562,,"cd .vim/"
-:PlugClean
-|2,0,1709101436,,"PlugClean"
 :PlugUpdate
 |2,0,1709101424,,"PlugUpdate"
 :where colorscheme
@@ -44,22 +109,14 @@
 |2,0,1709099557,,"!echo $TERM"
 :echo $TERM
 |2,0,1709099547,,"echo $TERM"
-:term
-|2,0,1709099519,,"term"
-:pwd
-|2,0,1709095955,,"pwd"
-:q!
-|2,0,1708931113,,"q!"
-:w
-|2,0,1708931054,,"w"
 :e $VIMRC
 |2,0,1708930740,,"e $VIMRC"
 :!g++ test.cpp -o test && ./test
 |2,0,1708930428,,"!g++ test.cpp -o test && ./test"
-:NERDTreeToggle
-|2,0,1708929943,,"NERDTreeToggle"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1709193546,,"@$"
 ?/R
 |2,1,1709101702,47,"R"
 ?/gru
@@ -72,267 +129,547 @@
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
+@/home/tss_workz/Documents/cpp/Cpp__CN/
+|2,3,1709109753,,"/home/tss_workz/Documents/cpp/Cpp__CN/"
+@y
+|2,3,1709102608,,"y"
 
 # Debug Line History (newest to oldest):
 
 # Registers:
+""0	LINE	0
+	
+|3,1,0,1,1,0,1709193546,""
 "1	LINE	0
 	
-|3,0,1,1,1,0,1709101402,""
+|3,0,1,1,1,0,1709193426,""
 "2	LINE	0
-	" Tsoding Grubber Darker
-|3,0,2,1,1,0,1709101401,"\" Tsoding Grubber Darker"
-"3	LINE	0
-	Plug 'blazkowolf/gruber-darker.nvim'
-|3,0,3,1,1,0,1709101399,"Plug 'blazkowolf/gruber-darker.nvim'"
-""-	CHAR	0
-	darker
-|3,1,36,0,1,0,1709101456,"darker"
+	
+|3,0,2,1,1,0,1709193424,""
+"3	CHAR	0
+	" NERDTree Settings
+	" Open NerdTree Explorer using [SPACE e] of the current buffer
+	map <leader>e   :NERDTreeToggle %:p:h<CR>
+	" Open NerdTree Explorer to the HOME directory using [SPACE ne]
+	"map <leader>ne   :NERDTreeToggle <CR>
+	let g:NERDTreeChDirMode=3
+	let NERDTreeShowHidden=1
+	
+	
+|3,0,3,0,9,0,1709193412,"\" NERDTree Settings","\" Open NerdTree Explorer using [SPACE e] of the current buffer","map <leader>e   :NERDTreeToggle %:p:h<CR>","\" Open NerdTree Explorer to the HOME directory using [SPACE ne]","\"map <leader>ne   :NERDTreeToggle <CR>","let g:NERDTreeChDirMode=3","let NERDTreeShowHidden=1","",""
+"4	LINE	0
+	" Keybindings
+	" -----------
+	let mapleader = " "
+	
+|3,0,4,1,4,0,1709192128,"\" Keybindings","\" -----------","let mapleader = \" \"",""
+"5	LINE	0
+	" File tree browser
+|3,0,5,1,1,0,1709192015,"\" File tree browser"
+"6	LINE	0
+	map <Leader>nt :NERDTree %:p:h<CR>
+|3,0,6,1,1,0,1709191984,"map <Leader>nt :NERDTree %:p:h<CR>"
+"7	LINE	0
+	let NERDTreeChDirMode = 3
+|3,0,7,1,1,0,1709189163,"let NERDTreeChDirMode = 3"
+"8	LINE	0
+	let g:NERDTreeChDirMode = 2
+	
+|3,0,8,1,2,0,1709188443,"let g:NERDTreeChDirMode = 2",""
+"9	LINE	0
+	" NERDTree Settings
+|3,0,9,1,1,0,1709188412,"\" NERDTree Settings"
+"-	CHAR	0
+	"
+|3,0,36,0,1,0,1709193401,"\""
 
 # File marks:
-'0  28  0  ~/.vim/vimrc
-|4,48,28,0,1709101781,"~/.vim/vimrc"
-'1  27  7  ~/.vim/vimrc
-|4,49,27,7,1709101727,"~/.vim/vimrc"
-'2  27  7  ~/.vim/vimrc
-|4,50,27,7,1709101727,"~/.vim/vimrc"
-'3  6  27  ~/.vim/vimrc
-|4,51,6,27,1709101628,"~/.vim/vimrc"
-'4  6  27  ~/.vim/vimrc
-|4,52,6,27,1709101628,"~/.vim/vimrc"
-'5  6  27  ~/.vim/vimrc
-|4,53,6,27,1709101628,"~/.vim/vimrc"
-'6  6  27  ~/.vim/vimrc
-|4,54,6,27,1709101628,"~/.vim/vimrc"
-'7  6  21  ~/.vim/vimrc
-|4,55,6,21,1709101540,"~/.vim/vimrc"
-'8  6  21  ~/.vim/vimrc
-|4,56,6,21,1709101540,"~/.vim/vimrc"
-'9  6  21  ~/.vim/vimrc
-|4,57,6,21,1709101540,"~/.vim/vimrc"
+'0  1  0  ~/.vim/vimrc
+|4,48,1,0,1709193554,"~/.vim/vimrc"
+'2  40  0  ~/NERD_tree_tab_1
+|4,50,40,0,1709193432,"~/NERD_tree_tab_1"
+'3  1  1  ~/.vim/NERD_tree_tab_2
+|4,51,1,1,1709193333,"~/.vim/NERD_tree_tab_2"
+'4  10  1  ~/.vim/NERD_tree_tab_2
+|4,52,10,1,1709193333,"~/.vim/NERD_tree_tab_2"
+'7  1  7  ~/NERD_tree_tab_1
+|4,55,1,7,1709193241,"~/NERD_tree_tab_1"
+'8  40  7  ~/NERD_tree_tab_1
+|4,56,40,7,1709193241,"~/NERD_tree_tab_1"
 
 # Jumplist (newest first):
--'  28  0  ~/.vim/vimrc
-|4,39,28,0,1709101781,"~/.vim/vimrc"
--'  28  0  ~/.vim/vimrc
-|4,39,28,0,1709101781,"~/.vim/vimrc"
--'  29  0  ~/.vim/vimrc
-|4,39,29,0,1709101768,"~/.vim/vimrc"
--'  29  0  ~/.vim/vimrc
-|4,39,29,0,1709101768,"~/.vim/vimrc"
 -'  1  0  ~/.vim/vimrc
-|4,39,1,0,1709101750,"~/.vim/vimrc"
+|4,39,1,0,1709193554,"~/.vim/vimrc"
+-'  40  0  ~/NERD_tree_tab_1
+|4,39,40,0,1709193432,"~/NERD_tree_tab_1"
+-'  101  2  ~/NERD_tree_tab_1
+|4,39,101,2,1709193360,"~/NERD_tree_tab_1"
+-'  1  0  ~/NERD_tree_tab_1
+|4,39,1,0,1709193360,"~/NERD_tree_tab_1"
+-'  10  1  ~/.vim/NERD_tree_tab_2
+|4,39,10,1,1709193333,"~/.vim/NERD_tree_tab_2"
+-'  10  1  ~/.vim/NERD_tree_tab_2
+|4,39,10,1,1709193333,"~/.vim/NERD_tree_tab_2"
+-'  11  2  ~/.vim/NERD_tree_tab_2
+|4,39,11,2,1709193257,"~/.vim/NERD_tree_tab_2"
+-'  1  0  ~/.vim/NERD_tree_tab_2
+|4,39,1,0,1709193257,"~/.vim/NERD_tree_tab_2"
+-'  11  2  ~/.vim/NERD_tree_tab_2
+|4,39,11,2,1709193257,"~/.vim/NERD_tree_tab_2"
+-'  1  0  ~/.vim/NERD_tree_tab_2
+|4,39,1,0,1709193257,"~/.vim/NERD_tree_tab_2"
+-'  40  7  ~/NERD_tree_tab_1
+|4,39,40,7,1709193241,"~/NERD_tree_tab_1"
+-'  40  7  ~/NERD_tree_tab_1
+|4,39,40,7,1709193241,"~/NERD_tree_tab_1"
+-'  142  2  ~/NERD_tree_tab_1
+|4,39,142,2,1709193201,"~/NERD_tree_tab_1"
+-'  1  9  ~/NERD_tree_tab_1
+|4,39,1,9,1709193201,"~/NERD_tree_tab_1"
+-'  142  2  ~/NERD_tree_tab_1
+|4,39,142,2,1709193201,"~/NERD_tree_tab_1"
+-'  1  9  ~/NERD_tree_tab_1
+|4,39,1,9,1709193201,"~/NERD_tree_tab_1"
+-'  40  0  ~/NERD_tree_tab_1
+|4,39,40,0,1709193144,"~/NERD_tree_tab_1"
+-'  40  0  ~/NERD_tree_tab_1
+|4,39,40,0,1709193144,"~/NERD_tree_tab_1"
+-'  101  2  ~/NERD_tree_tab_1
+|4,39,101,2,1709193109,"~/NERD_tree_tab_1"
+-'  1  0  ~/NERD_tree_tab_1
+|4,39,1,0,1709193109,"~/NERD_tree_tab_1"
+-'  101  2  ~/NERD_tree_tab_1
+|4,39,101,2,1709193109,"~/NERD_tree_tab_1"
+-'  1  0  ~/NERD_tree_tab_1
+|4,39,1,0,1709193109,"~/NERD_tree_tab_1"
+-'  1  0  ~/NERD_tree_tab_1
+|4,39,1,0,1709193097,"~/NERD_tree_tab_1"
+-'  1  0  ~/NERD_tree_tab_1
+|4,39,1,0,1709193097,"~/NERD_tree_tab_1"
+-'  72  49  ~/.vim/vimrc
+|4,39,72,49,1709193093,"~/.vim/vimrc"
+-'  72  49  ~/.vim/vimrc
+|4,39,72,49,1709193093,"~/.vim/vimrc"
+-'  65  19  ~/.vim/vimrc
+|4,39,65,19,1709193086,"~/.vim/vimrc"
+-'  65  19  ~/.vim/vimrc
+|4,39,65,19,1709193086,"~/.vim/vimrc"
+-'  37  0  ~/.vim/vimrc
+|4,39,37,0,1709193085,"~/.vim/vimrc"
+-'  37  0  ~/.vim/vimrc
+|4,39,37,0,1709193085,"~/.vim/vimrc"
+-'  36  22  ~/.vim/vimrc
+|4,39,36,22,1709193084,"~/.vim/vimrc"
+-'  36  22  ~/.vim/vimrc
+|4,39,36,22,1709193084,"~/.vim/vimrc"
+-'  24  31  ~/.vim/vimrc
+|4,39,24,31,1709193070,"~/.vim/vimrc"
+-'  22  10  ~/.vim/vimrc
+|4,39,22,10,1709193070,"~/.vim/vimrc"
+-'  24  31  ~/.vim/vimrc
+|4,39,24,31,1709193070,"~/.vim/vimrc"
+-'  22  10  ~/.vim/vimrc
+|4,39,22,10,1709193070,"~/.vim/vimrc"
+-'  3  2  ~/.vim/vimrc
+|4,39,3,2,1709193069,"~/.vim/vimrc"
+-'  3  2  ~/.vim/vimrc
+|4,39,3,2,1709193069,"~/.vim/vimrc"
 -'  1  0  ~/.vim/vimrc
-|4,39,1,0,1709101750,"~/.vim/vimrc"
--'  27  7  ~/.vim/vimrc
-|4,39,27,7,1709101727,"~/.vim/vimrc"
--'  27  7  ~/.vim/vimrc
-|4,39,27,7,1709101727,"~/.vim/vimrc"
--'  27  7  ~/.vim/vimrc
-|4,39,27,7,1709101727,"~/.vim/vimrc"
--'  27  7  ~/.vim/vimrc
-|4,39,27,7,1709101727,"~/.vim/vimrc"
--'  26  40  ~/.vim/vimrc
-|4,39,26,40,1709101706,"~/.vim/vimrc"
--'  26  40  ~/.vim/vimrc
-|4,39,26,40,1709101706,"~/.vim/vimrc"
--'  26  40  ~/.vim/vimrc
-|4,39,26,40,1709101706,"~/.vim/vimrc"
--'  26  40  ~/.vim/vimrc
-|4,39,26,40,1709101706,"~/.vim/vimrc"
--'  3  1  ~/.vim/vimrc
-|4,39,3,1,1709101702,"~/.vim/vimrc"
--'  3  1  ~/.vim/vimrc
-|4,39,3,1,1709101702,"~/.vim/vimrc"
--'  3  1  ~/.vim/vimrc
-|4,39,3,1,1709101702,"~/.vim/vimrc"
--'  3  1  ~/.vim/vimrc
-|4,39,3,1,1709101702,"~/.vim/vimrc"
--'  77  0  ~/.vim/vimrc
-|4,39,77,0,1709101655,"~/.vim/vimrc"
--'  77  0  ~/.vim/vimrc
-|4,39,77,0,1709101655,"~/.vim/vimrc"
--'  77  0  ~/.vim/vimrc
-|4,39,77,0,1709101655,"~/.vim/vimrc"
--'  77  0  ~/.vim/vimrc
-|4,39,77,0,1709101655,"~/.vim/vimrc"
+|4,39,1,0,1709193061,"~/.vim/vimrc"
 -'  1  0  ~/.vim/vimrc
-|4,39,1,0,1709101639,"~/.vim/vimrc"
+|4,39,1,0,1709193061,"~/.vim/vimrc"
+-'  40  0  ~/NERD_tree_tab_1
+|4,39,40,0,1709193037,"~/NERD_tree_tab_1"
+-'  40  0  ~/NERD_tree_tab_1
+|4,39,40,0,1709193037,"~/NERD_tree_tab_1"
+-'  40  0  ~/NERD_tree_tab_1
+|4,39,40,0,1709193037,"~/NERD_tree_tab_1"
+-'  40  0  ~/NERD_tree_tab_1
+|4,39,40,0,1709193037,"~/NERD_tree_tab_1"
+-'  101  2  ~/NERD_tree_tab_1
+|4,39,101,2,1709192998,"~/NERD_tree_tab_1"
+-'  101  2  ~/NERD_tree_tab_1
+|4,39,101,2,1709192998,"~/NERD_tree_tab_1"
+-'  1  0  ~/NERD_tree_tab_1
+|4,39,1,0,1709192998,"~/NERD_tree_tab_1"
+-'  101  2  ~/NERD_tree_tab_1
+|4,39,101,2,1709192998,"~/NERD_tree_tab_1"
+-'  101  2  ~/NERD_tree_tab_1
+|4,39,101,2,1709192998,"~/NERD_tree_tab_1"
+-'  1  0  ~/NERD_tree_tab_1
+|4,39,1,0,1709192998,"~/NERD_tree_tab_1"
+-'  40  0  ~/NERD_tree_tab_1
+|4,39,40,0,1709192984,"~/NERD_tree_tab_1"
+-'  40  0  ~/NERD_tree_tab_1
+|4,39,40,0,1709192984,"~/NERD_tree_tab_1"
+-'  101  2  ~/NERD_tree_tab_1
+|4,39,101,2,1709192951,"~/NERD_tree_tab_1"
+-'  1  0  ~/NERD_tree_tab_1
+|4,39,1,0,1709192951,"~/NERD_tree_tab_1"
+-'  101  2  ~/NERD_tree_tab_1
+|4,39,101,2,1709192951,"~/NERD_tree_tab_1"
+-'  1  0  ~/NERD_tree_tab_1
+|4,39,1,0,1709192951,"~/NERD_tree_tab_1"
+-'  27  26  ~/.vim/vimrc
+|4,39,27,26,1709192933,"~/.vim/vimrc"
+-'  27  26  ~/.vim/vimrc
+|4,39,27,26,1709192933,"~/.vim/vimrc"
+-'  27  26  ~/.vim/vimrc
+|4,39,27,26,1709192933,"~/.vim/vimrc"
+-'  27  26  ~/.vim/vimrc
+|4,39,27,26,1709192933,"~/.vim/vimrc"
+-'  26  21  ~/.vim/vimrc
+|4,39,26,21,1709192870,"~/.vim/vimrc"
+-'  26  21  ~/.vim/vimrc
+|4,39,26,21,1709192870,"~/.vim/vimrc"
+-'  26  21  ~/.vim/vimrc
+|4,39,26,21,1709192870,"~/.vim/vimrc"
+-'  26  21  ~/.vim/vimrc
+|4,39,26,21,1709192870,"~/.vim/vimrc"
+-'  25  5  ~/.vim/vimrc
+|4,39,25,5,1709192869,"~/.vim/vimrc"
+-'  25  5  ~/.vim/vimrc
+|4,39,25,5,1709192869,"~/.vim/vimrc"
+-'  25  5  ~/.vim/vimrc
+|4,39,25,5,1709192869,"~/.vim/vimrc"
+-'  25  5  ~/.vim/vimrc
+|4,39,25,5,1709192869,"~/.vim/vimrc"
+-'  24  34  ~/.vim/vimrc
+|4,39,24,34,1709192868,"~/.vim/vimrc"
+-'  24  34  ~/.vim/vimrc
+|4,39,24,34,1709192868,"~/.vim/vimrc"
+-'  1  8  ~/Documents/cpp/test.cpp
+|4,39,1,8,1709192769,"~/Documents/cpp/test.cpp"
+-'  1  8  ~/Documents/cpp/test.cpp
+|4,39,1,8,1709192769,"~/Documents/cpp/test.cpp"
+-'  1  8  ~/Documents/cpp/test.cpp
+|4,39,1,8,1709192769,"~/Documents/cpp/test.cpp"
+-'  1  8  ~/Documents/cpp/test.cpp
+|4,39,1,8,1709192769,"~/Documents/cpp/test.cpp"
+-'  26  32  ~/.vim/vimrc
+|4,39,26,32,1709192322,"~/.vim/vimrc"
+-'  26  32  ~/.vim/vimrc
+|4,39,26,32,1709192322,"~/.vim/vimrc"
+-'  24  49  ~/.vim/vimrc
+|4,39,24,49,1709191959,"~/.vim/vimrc"
+-'  24  49  ~/.vim/vimrc
+|4,39,24,49,1709191959,"~/.vim/vimrc"
 -'  1  0  ~/.vim/vimrc
-|4,39,1,0,1709101639,"~/.vim/vimrc"
--'  6  27  ~/.vim/vimrc
-|4,39,6,27,1709101628,"~/.vim/vimrc"
--'  6  27  ~/.vim/vimrc
-|4,39,6,27,1709101628,"~/.vim/vimrc"
--'  6  27  ~/.vim/vimrc
-|4,39,6,27,1709101628,"~/.vim/vimrc"
--'  6  27  ~/.vim/vimrc
-|4,39,6,27,1709101628,"~/.vim/vimrc"
--'  6  27  ~/.vim/vimrc
-|4,39,6,27,1709101628,"~/.vim/vimrc"
--'  6  27  ~/.vim/vimrc
-|4,39,6,27,1709101628,"~/.vim/vimrc"
+|4,39,1,0,1709191888,"~/.vim/vimrc"
 -'  1  0  ~/.vim/vimrc
-|4,39,1,0,1709101585,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1709101585,"~/.vim/vimrc"
--'  64  0  ~/.vim/vimrc
-|4,39,64,0,1709101581,"~/.vim/vimrc"
--'  64  0  ~/.vim/vimrc
-|4,39,64,0,1709101581,"~/.vim/vimrc"
--'  64  0  ~/.vim/vimrc
-|4,39,64,0,1709101581,"~/.vim/vimrc"
--'  64  0  ~/.vim/vimrc
-|4,39,64,0,1709101581,"~/.vim/vimrc"
--'  64  0  ~/.vim/vimrc
-|4,39,64,0,1709101581,"~/.vim/vimrc"
--'  64  0  ~/.vim/vimrc
-|4,39,64,0,1709101581,"~/.vim/vimrc"
--'  6  21  ~/.vim/vimrc
-|4,39,6,21,1709101540,"~/.vim/vimrc"
--'  6  21  ~/.vim/vimrc
-|4,39,6,21,1709101540,"~/.vim/vimrc"
--'  82  0  ~/.vim/vimrc
-|4,39,82,0,1709101443,"~/.vim/vimrc"
--'  82  0  ~/.vim/vimrc
-|4,39,82,0,1709101443,"~/.vim/vimrc"
--'  82  0  ~/.vim/vimrc
-|4,39,82,0,1709101443,"~/.vim/vimrc"
--'  82  0  ~/.vim/vimrc
-|4,39,82,0,1709101443,"~/.vim/vimrc"
--'  82  0  ~/.vim/vimrc
-|4,39,82,0,1709101443,"~/.vim/vimrc"
--'  82  0  ~/.vim/vimrc
-|4,39,82,0,1709101443,"~/.vim/vimrc"
--'  82  0  ~/.vim/vimrc
-|4,39,82,0,1709101443,"~/.vim/vimrc"
--'  82  0  ~/.vim/vimrc
-|4,39,82,0,1709101443,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1709101109,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1709101109,"~/.vim/vimrc"
--'  6  28  ~/.vim/vimrc
-|4,39,6,28,1709101016,"~/.vim/vimrc"
--'  6  28  ~/.vim/vimrc
-|4,39,6,28,1709101016,"~/.vim/vimrc"
--'  83  35  ~/.vim/vimrc
-|4,39,83,35,1709100925,"~/.vim/vimrc"
--'  83  35  ~/.vim/vimrc
-|4,39,83,35,1709100925,"~/.vim/vimrc"
--'  83  35  ~/.vim/vimrc
-|4,39,83,35,1709100925,"~/.vim/vimrc"
--'  83  35  ~/.vim/vimrc
-|4,39,83,35,1709100925,"~/.vim/vimrc"
--'  82  35  ~/.vim/vimrc
-|4,39,82,35,1709100925,"~/.vim/vimrc"
--'  83  35  ~/.vim/vimrc
-|4,39,83,35,1709100925,"~/.vim/vimrc"
--'  83  35  ~/.vim/vimrc
-|4,39,83,35,1709100925,"~/.vim/vimrc"
--'  83  35  ~/.vim/vimrc
-|4,39,83,35,1709100925,"~/.vim/vimrc"
--'  83  35  ~/.vim/vimrc
-|4,39,83,35,1709100925,"~/.vim/vimrc"
--'  82  35  ~/.vim/vimrc
-|4,39,82,35,1709100925,"~/.vim/vimrc"
--'  84  0  ~/.vim/vimrc
-|4,39,84,0,1709100817,"~/.vim/vimrc"
--'  84  0  ~/.vim/vimrc
-|4,39,84,0,1709100817,"~/.vim/vimrc"
--'  84  0  ~/.vim/vimrc
-|4,39,84,0,1709100817,"~/.vim/vimrc"
--'  84  0  ~/.vim/vimrc
-|4,39,84,0,1709100817,"~/.vim/vimrc"
--'  83  0  ~/.vim/vimrc
-|4,39,83,0,1709100817,"~/.vim/vimrc"
--'  84  0  ~/.vim/vimrc
-|4,39,84,0,1709100817,"~/.vim/vimrc"
--'  84  0  ~/.vim/vimrc
-|4,39,84,0,1709100817,"~/.vim/vimrc"
--'  84  0  ~/.vim/vimrc
-|4,39,84,0,1709100817,"~/.vim/vimrc"
--'  84  0  ~/.vim/vimrc
-|4,39,84,0,1709100817,"~/.vim/vimrc"
--'  83  0  ~/.vim/vimrc
-|4,39,83,0,1709100817,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1709100751,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1709100751,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1709100751,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1709100751,"~/.vim/vimrc"
--'  27  7  ~/.vim/vimrc
-|4,39,27,7,1709100729,"~/.vim/vimrc"
--'  26  7  ~/.vim/vimrc
-|4,39,26,7,1709100729,"~/.vim/vimrc"
--'  27  7  ~/.vim/vimrc
-|4,39,27,7,1709100729,"~/.vim/vimrc"
--'  26  7  ~/.vim/vimrc
-|4,39,26,7,1709100729,"~/.vim/vimrc"
--'  27  7  ~/.vim/vimrc
-|4,39,27,7,1709100729,"~/.vim/vimrc"
--'  26  7  ~/.vim/vimrc
-|4,39,26,7,1709100729,"~/.vim/vimrc"
--'  26  7  ~/.vim/vimrc
-|4,39,26,7,1709100729,"~/.vim/vimrc"
--'  27  7  ~/.vim/vimrc
-|4,39,27,7,1709100729,"~/.vim/vimrc"
--'  26  7  ~/.vim/vimrc
-|4,39,26,7,1709100729,"~/.vim/vimrc"
--'  27  7  ~/.vim/vimrc
-|4,39,27,7,1709100729,"~/.vim/vimrc"
--'  26  7  ~/.vim/vimrc
-|4,39,26,7,1709100729,"~/.vim/vimrc"
--'  27  7  ~/.vim/vimrc
-|4,39,27,7,1709100729,"~/.vim/vimrc"
--'  26  7  ~/.vim/vimrc
-|4,39,26,7,1709100729,"~/.vim/vimrc"
--'  26  7  ~/.vim/vimrc
-|4,39,26,7,1709100729,"~/.vim/vimrc"
--'  81  0  ~/.vim/vimrc
-|4,39,81,0,1709100688,"~/.vim/vimrc"
--'  85  0  ~/.vim/vimrc
-|4,39,85,0,1709100688,"~/.vim/vimrc"
--'  81  0  ~/.vim/vimrc
-|4,39,81,0,1709100688,"~/.vim/vimrc"
--'  85  0  ~/.vim/vimrc
-|4,39,85,0,1709100688,"~/.vim/vimrc"
--'  81  0  ~/.vim/vimrc
-|4,39,81,0,1709100688,"~/.vim/vimrc"
--'  85  0  ~/.vim/vimrc
-|4,39,85,0,1709100688,"~/.vim/vimrc"
--'  81  0  ~/.vim/vimrc
-|4,39,81,0,1709100688,"~/.vim/vimrc"
--'  85  0  ~/.vim/vimrc
-|4,39,85,0,1709100688,"~/.vim/vimrc"
--'  82  0  ~/.vim/vimrc
-|4,39,82,0,1709100688,"~/.vim/vimrc"
+|4,39,1,0,1709191888,"~/.vim/vimrc"
+-'  3  4  ~/radare2/test/fuzz/fuzz_cmd.c
+|4,39,3,4,1709191878,"~/radare2/test/fuzz/fuzz_cmd.c"
+-'  3  4  ~/radare2/test/fuzz/fuzz_cmd.c
+|4,39,3,4,1709191878,"~/radare2/test/fuzz/fuzz_cmd.c"
+-'  3  4  ~/radare2/test/fuzz/fuzz_cmd.c
+|4,39,3,4,1709191878,"~/radare2/test/fuzz/fuzz_cmd.c"
+-'  3  4  ~/radare2/test/fuzz/fuzz_cmd.c
+|4,39,3,4,1709191878,"~/radare2/test/fuzz/fuzz_cmd.c"
+-'  3  4  ~/radare2/test/fuzz/fuzz_cmd.c
+|4,39,3,4,1709191878,"~/radare2/test/fuzz/fuzz_cmd.c"
+-'  3  4  ~/radare2/test/fuzz/fuzz_cmd.c
+|4,39,3,4,1709191878,"~/radare2/test/fuzz/fuzz_cmd.c"
+-'  1  0  ~/radare2/test/README.md
+|4,39,1,0,1709191313,"~/radare2/test/README.md"
+-'  1  0  ~/radare2/test/README.md
+|4,39,1,0,1709191313,"~/radare2/test/README.md"
+-'  1  0  ~/radare2/test/README.md
+|4,39,1,0,1709191313,"~/radare2/test/README.md"
+-'  1  0  ~/radare2/test/README.md
+|4,39,1,0,1709191313,"~/radare2/test/README.md"
+-'  1  0  ~/radare2/test/README.md
+|4,39,1,0,1709191313,"~/radare2/test/README.md"
+-'  1  0  ~/radare2/test/README.md
+|4,39,1,0,1709191313,"~/radare2/test/README.md"
+-'  26  0  ~/NERD_tree_tab_1
+|4,39,26,0,1709191264,"~/NERD_tree_tab_1"
+-'  1  0  ~/NERD_tree_tab_1
+|4,39,1,0,1709191264,"~/NERD_tree_tab_1"
+-'  26  0  ~/NERD_tree_tab_1
+|4,39,26,0,1709191264,"~/NERD_tree_tab_1"
+-'  26  0  ~/NERD_tree_tab_1
+|4,39,26,0,1709191264,"~/NERD_tree_tab_1"
+-'  1  0  ~/NERD_tree_tab_1
+|4,39,1,0,1709191264,"~/NERD_tree_tab_1"
+-'  26  0  ~/NERD_tree_tab_1
+|4,39,26,0,1709191264,"~/NERD_tree_tab_1"
+-'  32  2  ~/NERD_tree_tab_1
+|4,39,32,2,1709191255,"~/NERD_tree_tab_1"
 
 # History of marks within files (newest to oldest):
 
 > ~/.vim/vimrc
-	*	1709101779	0
-	"	28	0
-	^	28	15
-	.	28	0
-	+	19	11
+	*	1709193552	0
+	"	1	0
+	.	26	0
+	+	20	11
 	+	27	9
-	+	82	0
-	+	83	0
-	+	82	0
+	+	88	0
+	+	89	0
+	+	88	0
 	+	27	7
 	+	1	0
-	+	82	0
-	+	6	28
-	+	82	0
-	+	6	28
+	+	88	0
+	+	8	28
+	+	88	0
+	+	8	28
 	+	3	0
 	+	27	7
 	+	29	0
 	+	28	0
+	+	8	0
+	+	6	31
+	+	6	0
+	+	7	0
+	+	6	35
+	+	5	0
+	+	22	0
+	+	46	19
+	+	48	0
+	+	22	0
+	+	48	0
+	+	22	0
+	+	46	0
+	+	22	26
+	+	22	38
+	+	26	40
+	+	22	24
+	+	22	0
+	+	22	24
+	+	22	33
+	+	22	41
+	+	22	0
+	+	22	61
+	+	22	1
+	+	22	0
+	+	24	22
+	+	22	12
+	+	22	60
+	+	22	32
+	+	22	13
+	+	22	61
+	+	22	0
+	+	22	33
+	+	70	0
+	+	22	0
+	+	23	0
+	+	29	0
+	+	36	0
+	+	26	0
+
+> ~/Downloads/cmake/CMake/Bootstrap.cmk/NERD_tree_win_7
+	*	1709193547	0
+	"	1	1
+	.	1	0
+	+	1	0
+
+> ~/Downloads/cmake/CMake/NERD_tree_tab_6
+	*	1709193542	0
+	"	9	0
+	.	1	0
+	+	1	0
+
+> ~/Downloads/cmake/CMake/CMakeCPack.cmake
+	*	1709193533	0
+	"	1	12
+
+> ~/Desktop/14Nov_eSIMLPA.java
+	*	1709193487	0
+	"	1	0
+
+> ~/.vim/NERD_tree_tab_2
+	*	1709193484	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/NERD_tree_tab_1
+	*	1709193431	0
+	"	40	0
+	.	1	0
+	+	1	0
+
+> ~/.vim/NERD_tree_win_3
+	*	1709193270	0
+	"	1	2
+	.	1	0
+	+	1	0
+
+> ~/.vim/.netrwhist
+	*	1709193255	0
+	"	1	21
+
+> ~/Documents/cpp/test.cpp
+	*	1709193191	0
+	"	9	0
+	^	3	7
+	.	3	0
+	+	7	7
+	+	4	7
+	+	8	48
+	+	5	7
+	+	7	9
+	+	6	7
+	+	7	12
+	+	8	53
+	+	3	0
+
+> ~/.vim/NERD_tree_tab_3
+	*	1709192930	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/NERD_tree_win_2
+	*	1709192793	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Documents/cpp/NERD_tree_tab_8
+	*	1709192514	0
+	"	4	3
+	.	1	0
+	+	1	0
+
+> ~/.vim/NERD_tree_tab_6
+	*	1709192478	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/radare2/test/fuzz/fuzz_cmd.c
+	*	1709191876	0
+	"	3	4
+
+> ~/radare2/test/README.md
+	*	1709191871	0
+	"	1	0
+
+> ~/Firefox_wallpaper.png
+	*	1709191260	0
+	"	1	0
+
+> ~/Documents/2_Feather_Samples/bootloader/mcuboot/Cargo.toml
+	*	1709191248	0
+	"	1	2
+
+> ~/Documents/cpp/NERD_tree_tab_2
+	*	1709191122	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/Documents/2_Feather_Samples/bootloader/mcuboot/NERD_tree_tab_3
+	*	1709191117	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/Documents/cpp_time_project/timeremains.cpp
+	*	1709191087	0
+	"	1	0
+
+> ~/.vim/NERD_tree_tab_1
+	*	1709190993	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/.config/nvim/lazy-lock.json
+	*	1709190989	0
+	"	1	0
+
+> ~/.config/nvim/stylua.toml
+	*	1709190565	0
+	"	1	0
+
+> ~/.config/nvim/lazyvim.json
+	*	1709190561	0
+	"	1	0
+
+> ~/.config/nvim/.gitignore
+	*	1709190557	0
+	"	1	0
+
+> ~/.config/nvim/.neoconf.json
+	*	1709190555	0
+	"	1	0
+
+> ~/.config/nvim/lua/plugins/example.lua
+	*	1709190547	0
+	"	265	0
+
+> ~/.config/nvim/lua/config/options.lua
+	*	1709190490	0
+	"	3	0
+
+> ~/.config/nvim/README.md
+	*	1709190461	0
+	"	1	0
+
+> ~/.config/nvim/init.lua
+	*	1709190452	0
+	"	6	0
+
+> ~/.config/nvim/lua/plugins/java/init.lua
+	*	1709190437	0
+	"	1	0
+
+> ~/.config/nvim/lua/config/lazy.lua
+	*	1709190430	0
+	"	56	0
+
+> ~/.config/nvim/lua/config/keymaps.lua
+	*	1709190411	0
+	"	3	0
+
+> ~/.vim/plugged/nerdtree/doc/NERDTree.txt
+	*	1709190093	0
+	"	569	1
+
+> ~/.vim/NERD_tree_win_2
+	*	1709188758	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/minicom.log
+	*	1709188138	0
+	"	1	3
+
+> ~/.gitignore
+	*	1709187821	0
+	"	83	0
+
+> ~/Documents/cpp/NERD_tree_win_2
+	*	1709187809	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/.vim/viminfo
+	*	1709187234	0
+	"	1	0
+
+> ~/help NERDTreeChDirMode
+	*	1709186621	0
+	"	1	0
+
+> ~/.vim/e vimrc
+	*	1709186594	0
+	"	1	0
+
+> ~/Documents/cpp/tab
+	*	1709185485	0
+	"	1	0
+
+> ~/Documents/cpp/Cpp__CN/NERD_tree_tab_1
+	*	1709109756	0
+	"	4	0
+	.	1	0
+	+	1	0
 
 > ~/Downloads/tsoding_theme/Tsoding Dark Theme-color-theme.json
 	*	1709099929	0
@@ -345,20 +682,6 @@
 > ~/.config/kitty/kitty.conf
 	*	1708946799	0
 	"	266	0
-
-> ~/Documents/cpp/test.cpp
-	*	1708931110	0
-	"	8	63
-	^	8	64
-	.	8	63
-	+	7	7
-	+	4	7
-	+	8	48
-	+	5	7
-	+	7	9
-	+	6	7
-	+	7	12
-	+	8	63
 
 > ~/NERD_tree_1
 	*	1708930963	0
